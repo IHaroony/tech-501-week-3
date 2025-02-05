@@ -176,9 +176,7 @@ The application source code is hosted on **GitHub**. Clone it to the VM.
 
 ### **Step 1: Create a Directory for the Repository**
 
-bash
 
-CopyEdit
 
 `mkdir ~/repo && cd ~/repo`
 
@@ -194,9 +192,7 @@ CopyEdit
 
 ### **Step 3: Clone the Repository**
 
-bash
 
-CopyEdit
 
 `git clone https://github.com/IHaroony/tech-501-sparta-app-deployment.git cd tech-501-sparta-app-deployment/app`
 
@@ -208,9 +204,7 @@ CopyEdit
 
 Navigate to the application directory and install the required dependencies:
 
-bash
 
-CopyEdit
 
 `cd ~/repo/tech-501-sparta-app-deployment/app npm install`
 
@@ -266,6 +260,8 @@ nginx
 
 
 
+
+# **Blockers** #
 
 
 # Blocker older version of node#
