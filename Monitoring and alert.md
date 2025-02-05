@@ -10,12 +10,18 @@
 2. In the **left-hand sidebar**, select **Monitor**.
 3. Click on **Alerts** in the left-hand menu.
 
+![alerts](images/c2.png)
+![alert click](c8.png)
+
 ### **Step 3: Create a New Alert**
 
 4. Click **+ New Alert Rule** at the top.
 5. Under **Scope**, click **Select a Resource** and choose your **VM**.
+![VM](c1.png)
 
 ### **Step 4: Set the Condition (CPU Usage Threshold)**
+
+![alt text](c3.png)
 
 6. Click **Add Condition**.
 7. Search for **Percentage CPU** and select it.
@@ -24,12 +30,17 @@
     - **Threshold:** **60%** (or lower for easier triggering)
     - **Time Aggregation:** **Average per minute**
 
+![alert](c4.png)
+
 ### **Step 5: Configure Action (Email Notification)**
 
 9. Click **+ Add Action Group**.
 10. Create an action group with:
     - **Action Type:** Email
     - **Recipient Email:** Your email address
+
+![email](c5.png)
+
 
 ### **Step 6: Define Alert Details & Create**
 
@@ -38,7 +49,7 @@
 13. Click **Create** to deploy the alert.
 
 ---
-
+![aler rule](c6.png)
 ## **2. Load Testing the VM with Apache Bench**
 
 To generate high CPU usage and trigger the alert, I used **Apache Bench (`ab`)**:
